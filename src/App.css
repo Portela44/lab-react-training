@@ -136,3 +136,39 @@
   font-size: 3em;
 }
 
+/* DRIVERCARD SECTION */
+
+.driverCard {
+  display: flex;
+  align-items: center;
+  background-color: rgb(71,91,181);
+  margin: 7px;
+  border-radius: 10px;
+  color:white;
+  height: 150px;
+}
+
+.driverCard > img {
+  border-radius: 50%;
+  margin-left: 35%;
+  width: 120px;
+  height: 120px;
+  align-content: center;
+}
+
+.cardInfo {
+  margin-left: 10px;
+}
+
+.cardInfo > h1 {
+  margin:0px;
+}
+
+.driverRating {
+  margin:0px;
+  font-size: 2em;
+}
+
+.carModel {
+  margin:0px;
+}
