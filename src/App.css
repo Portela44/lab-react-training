@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* CARD SECTION */
+
+.card {
+  display:flex;
+  border: 1px solid black;
+  margin: 7px;
+  height: 150px;
+}
+
+.card>img {
+  width: 140px;
+  margin: 5px;
+}
+
+.cardInformation > p {
+  margin: 3px;
+}
+
+.cardInformation > p > span {
+  font-weight: 800;
+}
+
+
+
