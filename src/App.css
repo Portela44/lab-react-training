@@ -41,6 +41,12 @@ body {
   }
 }
 
+/* GENERAL */
+
+.sectionHeader {
+  margin-left: 7px;
+}
+
 /* CARD SECTION */
 
 .card {
@@ -63,5 +69,19 @@ body {
   font-weight: 800;
 }
 
+/* GREETING SECTION */
 
+.greetings {
+  border: 1px solid black;
+  margin: 7px;
+  padding: 5px;
+}
+
+/* RANDOM SECTION */
+
+.random {
+  border: 1px solid black;
+  margin: 7px;
+  padding: 5px;
+}
 

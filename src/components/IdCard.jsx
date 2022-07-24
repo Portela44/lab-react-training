@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function IdCard(props) {
     const {lastName, firstName, gender, height, birth, picture} = props;
-    console.log(props);
     return (
         <div className="card">
             <img src={picture} alt="profile" />
