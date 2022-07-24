@@ -118,7 +118,7 @@
 }
 
 .expiration {
-  margin: 2px 0px 2px 7px;
+  margin: 2px 0px 2px 15px;
 }
 
 .bankName {
@@ -126,5 +126,13 @@
 }
 
 .owner > p {
-  margin: 2px 0px 7px 7px;
+  margin: 2px 0px 7px 15px;
 }
+
+/* RATING SECTION */
+
+.rating {
+  margin-left: 7px;
+  font-size: 3em;
+}
+
